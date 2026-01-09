@@ -1,0 +1,66 @@
+.header {
+    background: linear-gradient(135deg, #E3350D 0%, #ff6b35 100%);
+    padding: 1.5rem 2rem;
+    border-radius: 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 32px rgba(227, 53, 13, 0.2);
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-icon {
+    font-size: 2rem;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s;
+}
+
+.nav a:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(15, 52, 96, 0.3) 100%);
+    padding: 2rem;
+    text-align: center;
+    border-top: 2px solid rgba(227, 53, 13, 0.2);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.footer p {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+}
